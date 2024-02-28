@@ -5,6 +5,7 @@ app = Flask(__name__)
 def get_herb_entries():
     return [
         {"name": "Basil", "quantity": "5g"},
+        {"name": "Basils", "quantity": "15g"},
         {"name": "Mint", "quantity": "3g"},
         {"name": "Cilantro", "quantity": "2g"}
     ]
